@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.e.project3130">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".StudentPage.Register.register"
+            android:parentActivityName=".StudentPage.Student_Main"></activity>
+        <activity android:name=".StudentPage.TutionFee.Tuition"
+            android:parentActivityName=".StudentPage.Student_Main"></activity>
+        <activity android:name=".StudentPage.Student_Main"
+            android:parentActivityName=".NewAccount"> </activity>
+        <activity android:name=".StudentPage.TermSelect"
+            android:parentActivityName=".NewAccount"> </activity>
+        <activity android:name=".StudentPage.TimeTable.ViewCourseDB"
+            android:parentActivityName=".StudentPage.Student_Main"> </activity>
+        <activity android:name=".StudentPage.Register.CourseDetail"
+            android:parentActivityName=".StudentPage.Register.register"></activity>
+        <activity android:name=".StudentPage.TimeTable.AddCourse"
+            android:parentActivityName=".StudentPage.TimeTable.ViewCourseDB"> </activity>
+        <activity android:name=".StudentPage.GradeReport"
+            android:parentActivityName=".StudentPage.Student_Main"></activity>
+        <activity android:name=".StudentPage.personal_info"
+            android:parentActivityName=".StudentPage.Student_Main"> </activity>
+
+
+        <activity android:name=".AdminPage.Admin_Main"
+            android:parentActivityName=".NewAccount"> </activity>
+        <activity android:name=".AdminPage.courseList"
+            android:parentActivityName=".AdminPage.Admin_Main"> </activity>
+        <activity android:name=".AdminPage.courseDetail"
+            android:parentActivityName=".AdminPage.courseList"> </activity>
+        <activity android:name=".AdminPage.addNewCourse"
+            android:parentActivityName=".AdminPage.courseList"> </activity>
+        <activity android:name=".AdminPage.numberRegister"
+            android:parentActivityName=".AdminPage.Admin_Main"></activity>
+        <activity android:name=".AdminPage.studentList"
+            android:parentActivityName=".AdminPage.Admin_Main"></activity>
+        <activity android:name=".AdminPage.studentTermList"
+            android:parentActivityName=".AdminPage.studentList"></activity>
+        <activity android:name=".AdminPage.studentCourseList"
+            android:parentActivityName=".AdminPage.studentTermList"></activity>
+        <activity android:name=".AdminPage.studentGradeDetail"
+            android:parentActivityName=".AdminPage.studentCourseList"></activity>
+        <activity android:name=".AdminPage.RegisterNumber"
+            android:parentActivityName=".AdminPage.Admin_Main"></activity>
+        <activity android:name=".AdminPage.RegisterNumberList"
+            android:parentActivityName=".AdminPage.RegisterNumber"></activity>
+        <activity android:name=".AdminPage.AddNewTerm"
+            android:parentActivityName=".AdminPage.TermList"></activity>
+        <activity android:name=".AdminPage.TermList"
+            android:parentActivityName=".AdminPage.Admin_Main"></activity>
+        <activity android:name=".AdminPage.addNewCourse_new"
+            android:parentActivityName=".AdminPage.TermList"></activity>
+        <activity android:name=".NewAccount"
+            android:parentActivityName=".MainActivity"> </activity>
+        <activity android:name=".Create"
+            android:parentActivityName=".NewAccount"></activity>
+
+        <activity android:name=".StudentPage.WeeklySchedule.weekschedule"
+            android:parentActivityName=".StudentPage.Student_Main"></activity>
+
+
+
+
+
+    </application>
+
+</manifest>

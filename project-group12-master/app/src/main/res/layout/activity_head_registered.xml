@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/numberstudents" />
+
+    <TextView
+        android:id="@+id/c3101"
+        android:layout_width="139dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="256dp"
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/c3110"
+        android:layout_width="140dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="8dp"
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c3101" />
+
+    <TextView
+        android:id="@+id/c3120"
+        android:layout_width="139dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="4dp"
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c3110" />
+
+    <TextView
+        android:id="@+id/c3130"
+        android:layout_width="139dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="8dp"
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c3120" />
+
+    <TextView
+        android:id="@+id/c3136"
+        android:layout_width="138dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="224dp"
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c3130" />
+
+</android.support.constraint.ConstraintLayout>
